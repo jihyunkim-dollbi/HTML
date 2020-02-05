@@ -41,7 +41,7 @@ width: 950px;
 <%
 
 for(int i=0; i<=50 ; i++)
-{
+  {
 	MusicVO vo=list.get(i);
 	String s="";
 	if(vo.getState().equals("유지"))
@@ -62,10 +62,11 @@ for(int i=0; i<=50 ; i++)
 	<td class="text-center"><%=s+" "+(vo.getIdcliment()!=0?vo.getIdcliment():" ") %></td>
 	<td class="text-center"><img src="<%=vo.getPoster() %>"width=30 height=30></td>
 	
+<!--  	
+	<td><a href="detail.jsp"></td>
 	
+	-->
 	
-	
-	<td><%=vo.getTitle() %></td>
 	<td><%=vo.getSinger() %></td>
 	</tr>
 	
@@ -73,7 +74,7 @@ for(int i=0; i<=50 ; i++)
 	
 	
 	
-}
+  }
 
 %>
 
