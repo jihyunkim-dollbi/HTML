@@ -5,7 +5,7 @@
     
     MusicDAO dao = new MusicDAO();
     ArrayList<MusicVO> list=dao.musiclistData();
-    
+     
     %>
     
     
@@ -26,6 +26,7 @@ width: 950px;
 <title>Insert title here</title>
 </head>
 <body>
+
 <div class="container"></div>
 <h1 class="text-center">지니뮤직의 탑 10</h1>
 <div class="row">
