@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!-- 
+
+	 입력창
+	 
+	 input 
+	  		1. 한줄입력      => 제목란, 아이디란입력시...
+	  						<imput type=text size=10> => 
+	  		2. 비밀번호입력 => <input type=password size=20>
+	  		3. 라디오버튼   => <input type=radio>남자 <input type=radio> 여자
+	  		4. 체크박스버튼  => <input type=checkbox>게임
+	  		5. 파일열기창띄우기  => <input type=file size=30> ->선택한 파일을 가져오게 한다
+	  		6. 버튼  
+	  			1)일반버튼    => <input type=button value="확인">
+	  			2)전송버튼   => <input type=submit value="전송"> -> 글쓰기완료시 "submit"
+	  			3)초기화버튼  => <input type=reset value="취소">
+	  	 	7. 날짜출력버튼   =>  <input type=date> ==> 달력이 출력됨
+	  	 	8. 데이터감추기  => <input type=hidden> (******)
+	  	 	9. 이메일
+	  	 	10. etc
+	  	 	
+	  		
+	 select : 콤보박스
+	 		  <select>
+	 				<option>010</option>
+	 				<option>011</option>
+	 				<option>017</option>
+	 	    	</select>
+	 			
+	 textarea : 여러줄 입력
+	 			<textarea rows=10 cols=50></textarea>
+				
+	
+ -->
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	Id: <input type=text size=20><br> 
+	Pw: <input type=password size=20><br>
+	Radio: <input type=radio checked> 남자 <input type=radio> 여자 <br>
+	CheckBox: <input type=checkbox>운동 <input type=checkbox> 등산 <input type=checkbox> 게임 <br>
+	File: <input type=file size=30> <br>
+	Date: <input type=date size=20><br> <!--  크롬, FF 에서만 기능함  -->
+	BUTTONS: <input type="button" value="확인">
+			<input type="submit" value="완료">
+			<input type="reset" value="초기화">
+			<button>전송</button><br> <!--  submit과 동일한 버튼 -->
+			<input type="image" src="orange111.jpeg"><!-- 이미지버튼 =submit --><br>
+			
+	숨김: <input type=hidden size=20><br>
+	콤보: <select>
+			<option>서울</option>
+			<option>뉴욕</option>
+			<option>파리</option>
+		</select><br>
+	내용:<textarea rows="10" cols="50"></textarea>
+			
+</body>
+</html>
